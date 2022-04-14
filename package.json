@@ -1,0 +1,19 @@
+{
+  "name": "daniel-aleksiuk-infinite-scroll",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielAleksiuk/infinite-scroll-react.git"
+  },
+  "author": "daniel.aleksiuk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielAleksiuk/infinite-scroll-react/issues"
+  },
+  "homepage": "https://github.com/danielAleksiuk/infinite-scroll-react#readme"
+}
