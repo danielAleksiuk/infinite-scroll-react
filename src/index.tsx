@@ -1,8 +1,8 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import ReactDOM from 'react-dom/client';
+import { InfinityScroll } from './infinity-scroll/InfinityScroll';
+import './index.scss';
 
-const App = () => {
-  return <h1>Init app!</h1>;
-};
-
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM
+	.createRoot(document.getElementById('root') as Element)
+	.render(<InfinityScroll />);
